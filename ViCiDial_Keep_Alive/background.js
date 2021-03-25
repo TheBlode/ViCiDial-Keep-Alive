@@ -12,4 +12,4 @@ setTimeout(function() {
 
     // Play sound
     my_sound.play();
-}, 2000);
+}, 30000);
