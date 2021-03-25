@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "ViCiDial Keep Alive",
+    "description": "This extension will maintain the ViCiDial heartbeat from the frontend to the backend.",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "128.png"
+    },
+    "icons": { "16": "16.png",
+           "48": "48.png",
+          "128": "128.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://*/agc/vicidial.php"],
+        "js": ["jquery.js", "background.js"],
+        "persistent": true
+    }]
+}
