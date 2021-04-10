@@ -7,7 +7,8 @@ Google Chrome developers are constantly trying to make the user experience on Ch
 # Something Noteworthy
 I installed Chrome 89.0.4389.114 (Official Build) (64-bit) for Windows on 7/04/21 and noticed this flag was present;
 
-`chrome://flags/#intensive-wake-up-throttling
+```
+chrome://flags/#intensive-wake-up-throttling
 
 Throttle Javascript timers in background.
 When enabled, wake ups from DOM Timers are limited to 1 per minute in a page that has been hidden for 5 minutes. For additional details, see https://www.chromestatus.com/feature/4718288976216064. – Mac, Windows, Linux, Chrome OS, Android
@@ -15,6 +16,7 @@ When enabled, wake ups from DOM Timers are limited to 1 per minute in a page tha
 #intensive-wake-up-throttling`
 
 Disabling this option negates the need for this Extension. However, with Chrome flags, they can be taken away at any time without notice.
+```
 
 # How to Use This
 1) Clone the repository using `git`, Github Desktop or download the repository as a zip file.
@@ -43,3 +45,5 @@ Disabling this option negates the need for this Extension. However, with Chrome 
 - Original ViCiDial thread discussing workarounds -> https://www.vicidial.org/VICIDIALforum/viewtopic.php?f=2&t=37098
 
 - Chrome Extension -> https://chrome.google.com/webstore/detail/pof-personality-search/lodgobikogmbkkhehcidnpempfefjkmp
+
+- Official document from ViCiDial Team -> http://vicidial.org/docs/WEB_BROWSER_JAVASCRIPT_THROTTLING.txt
