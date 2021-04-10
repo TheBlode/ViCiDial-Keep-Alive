@@ -14,9 +14,9 @@ Throttle Javascript timers in background.
 When enabled, wake ups from DOM Timers are limited to 1 per minute in a page that has been hidden for 5 minutes. For additional details, see https://www.chromestatus.com/feature/4718288976216064. – Mac, Windows, Linux, Chrome OS, Android
 
 #intensive-wake-up-throttling`
+```
 
 Disabling this option negates the need for this Extension. However, with Chrome flags, they can be taken away at any time without notice.
-```
 
 # How to Use This
 1) Clone the repository using `git`, Github Desktop or download the repository as a zip file.
